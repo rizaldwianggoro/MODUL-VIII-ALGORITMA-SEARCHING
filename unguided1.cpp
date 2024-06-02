@@ -35,7 +35,6 @@ int main() {
 
     vector<char> chars;
     for (char c : kalimat) {
-        // Abaikan spasi
         if (c != ' ') {
             chars.push_back(c);
         }
